@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Batman</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/responsivo.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/estilos.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <img class="logo" src="./imagens-b/header.jpg" alt="logo batman" srcset="" width="296" height="152">
+    </header>
+
+    <main class="selecao-de-personagens">
+        <section class="personagens">
+            <h1 class="titulo"> Selecione um personagem</h1>
+            <ul class="lista-de-personagens">
+                <li class="personagem selecionado" id="batman" data-name="Batman" data-description="Ao contrário da maior parte dos super-heróis, Batman não tem superpoderes; assim, na sua guerra contra o crime, utiliza seu intelecto de gênio, sua perícia em artes marciais e sua destreza física — bem como sua riqueza, que lhe garante um enorme arsenal de armas e equipamentos de última geração.">
+                    <img src="imagens-b/card-batman.jpg" alt="Personagem Batman" width="123px" height="190px">
+                </li>
+                <li class="personagem" id="robin" data-name="Robin" data-description="Robin pode ser o mais jovem da família Batman, mas também é o mais inteligente e um mestre do raciocínio dedutivo.">
+                    <img src="imagens-b/card-robin.jpg" alt="Personagem Robin" width="123px" height="190px">
+                </li>
+                <li class="personagem" id="batgirl" data-name="Batgirl" data-description="Batgirl era Barbara Gordon, bibliotecária e filha do Comissário Gordon. Em sua primeira aventura, ela auxiliou Batman e Robin a capturar o Mariposa Assassina.">
+                    <img src="imagens-b/card-batgirl.jpg" alt="Personagem Batgirl" width="123px" height="190px">
+                </li>
+                <li class="personagem" id="asa-noturna" data-name="Asa Noturna" data-description="O Asa Noturna, assim como Batman, usa uma forte armadura para sua proteção, porém ele não tem uma capa, o que dificulta sua ida de lugares muito longes um do outro. Mas em compensação, seu traje é mais leve e permite Dick fazer movimentos mais rápidos e ágeis que Bruce e Tim.">
+                    <img src="imagens-b/card-asa-noturna.jpg" alt="Personagem Asa Noturna" width="123px" height="190px">
+                </li>
+                <li class="personagem" id="capuz-vermelho" data-name="Capuz Vermelho" data-description="O Capuz Vermelho assume o controle sobre diversas gangues em Gotham City e começa uma guerra contra o império de Máscara Negra. Em geral, ele se esforça para assumir as gangues de Gotham para parar algumas de suas ações ilícitas (como drogas a menores), e para matar o Coringa em vingança pela sua própria morte.">
+                    <img src="imagens-b/card-capuz-vermelho.jpg" alt="Personagem Capuz Vermelho" width="123px" height="190px">
+                </li>
+                <li class="personagem" id="coringa" data-name="Coringa" data-description="O coringa é um homem lunático que matava as pessoas com soro que as deixavam com um sorriso fixo no rosto.">
+                    <img src="./imagens-b/The_man_who_laughs.jpg" alt="Personagem Coringa" width="123px" height="190px">
+                </li>
+                <li class="personagem" id="mulher-gato" data-name="Mulher Gato" data-description=" A mulher Gato é uma criatura sedutora que vive um delicado equilíbrio entre o bem e o mal.">
+                    <img src="imagens-b/card-mulher-gato.jpg" alt="Personagem Mulher Gato" width="123px" height="190px">
+                </li>
+                <li class="personagem" id="charada" data-name="Charada" data-description="Charada é um assassino em série que parecia estar testando o Cavaleiro das Trevas com uma série de enigmas. ">
+                    <img src="imagens-b/card-charada.jpg" alt="Personagem Charada" width="123px" height="190px">
+                </li>
+            </ul>
+        </section>
+        <section class="personagem-selecionado">
+            <img class="personagem-grande" src="imagens-b/pngwing.com.png"
+                alt="Personagem Selecionado" width="429px" height="429px">
+
+            <div class="informacoes-personagem">
+                <h2 class="nome-personagem" id="nome-personagem">Batman</h2>
+                <p class="descricao-personagem" id="descricao-personagem">Ao contrário da maior parte dos super-heróis, Batman não tem superpoderes; assim, na sua guerra contra o crime, utiliza seu intelecto de gênio, sua perícia em artes marciais e sua destreza física — bem como sua riqueza, que lhe garante um enorme arsenal de armas e equipamentos de última geração.</p>
+            </div>
+        </section>
+    </main>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
